@@ -91,15 +91,6 @@ button:hover {
     #7c30d1,
     /* Start color */ #9d42f5 /* End color */
   );
-  background-size: 200% 100%;
-  animation: slideGradient 1s ease infinite;
+  transform: scale(1.05);
 }
 
-@keyframes slideGradient {
-  0% {
-    background-position: 0 0; /* Start from the top (off-screen) */
-  }
-  100% {
-    background-position: 200% 0; /* Slide downwards (off-screen) */
-  }
-}
